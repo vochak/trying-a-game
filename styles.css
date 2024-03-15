@@ -1,0 +1,25 @@
+body {
+    background-color: purple;
+}
+
+
+
+body {
+    display: flex;
+}
+.x {
+    background-color:black;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    color:aliceblue;
+    border-radius: 10%;  
+}
+p {
+    padding-top: 100px;
+    text-align:center;
+    border: 3px solid black;
+    color:chartreuse;
+    margin:2px;
+}
