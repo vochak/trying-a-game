@@ -8,7 +8,7 @@ body {
     display: flex;
 }
 .x {
-    background-color:black;
+    background-color:rgb(24, 2, 2);
     width: 200px;
     height: 50px;
     padding: 10px;
