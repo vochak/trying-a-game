@@ -1,26 +1,30 @@
-const candy = document.querySelector("#candy");
-const chocolate = document.querySelector("#chocolate");
-const sweets = document.querySelector("#sweets");
-const words = document.querySelector("#words")
+const button1 = document.querySelector("#candy");
+const button2 = document.querySelector("#chocolate");
+const button3 = document.querySelector("#sweets");
+const words = document.querySelector("#words");
 
+//initialize
+button1.onclick = goCandy;
+button2.onclick = goChoco;
+button3.onclick = goSweets;
 
+function go () {
+    button1.innerText = "CANDYx";
+    button2.innerText = "CHOCO";
+    button3.innerText = "SWEETS";
+    button1.onclick = goCandy;
+    button2.onclick = goChoco;
+    button3.onclick = goSweets;
+}
 function goCandy () {
-    candy.innerText = "welcome to candy store";
-    chocolate.innerText = "purchase candy";
-    words.innertext = "hhhhhhhhhhh";
-    sweets.innerText = "go home"
+    button1.innerText = "a";
+    button2.innerText = "b";
+    button3.innerText = "go back";
+    button3.onclick = go;
+
 }
 
-function goChoco () {} 
-    
-function goSweets () {
-    console.log("going to sweet store");
-}
-function xWords () {
-    words.innertext = "hhhhhhhhhhh";
-}
-//initiallize buttons
-candy.onclick = goCandy;
-chocolate.onclick = goChoco;
-sweets.onclick = goSweets;
-words.onclick = xWords;
+
+
+
+ 
